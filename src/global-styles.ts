@@ -1,4 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+import UbuntuBold from '/src/assets/fonts/Ubuntu-bold.ttf'
+import UbuntuMedium from '/src/assets/fonts/Ubuntu-Medium.ttf'
+import UbuntuRegular from '/src/assets/fonts/Ubuntu-Regular.ttf'
  
 const GlobalStyle = createGlobalStyle`
 :root{
@@ -14,15 +17,15 @@ const GlobalStyle = createGlobalStyle`
 }
 @font-face {
   font-family: 'ubuntu-Bold';
-  src: url(./assets/fonts/Ubuntu-bold.ttf) format('truetype');
+  src: url(${UbuntuBold}) format('truetype');
 }
 @font-face {
   font-family: 'ubuntu-medium';
-  src: url(./assets/fonts/Ubuntu-Medium.ttf) format('truetype');;
+  src: url(${UbuntuMedium}) format('truetype');;
 }
 @font-face {
   font-family: 'ubuntu-regular';
-  src: url(./assets/fonts/Ubuntu-Regular.ttf) format('truetype');;
+  src: url(${UbuntuRegular}) format('truetype');;
 }
   body {
     background-color: var(--theme-bg);
