@@ -10,7 +10,7 @@ import Summary from "../summary/summary"
 import Finished from "../finished/finished"
 
 const Card = () => {
-  //iniciates an object with default and empty data to be filled throughout the form 
+  //initiates an object with default and empty data to be filled throughout the form 
   const [user, setUser] = useState<userProps>({
     name: '',
     email: '',
