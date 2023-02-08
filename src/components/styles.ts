@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
     height: 80%;
     justify-content: start;
     max-height: 80%;
-    min-height: 20rem;
+    min-height: 35vh;
     padding: 25px 0 35px;
   }
 `

@@ -22,10 +22,13 @@ export const Row = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
   &.header{
     height: 4rem;
     border-bottom: 1px solid hsl(229, 24%, 77%);
+  }
+  @media screen and (max-width: 997px){
+    width: 80%;
   }
 `
 export const SumName = styled(Name)`
@@ -58,6 +61,7 @@ export const SumSubtext = styled(Subtext)`
 export const Total = styled(Row)`
   align-items: center;
   background-color: transparent;
+  justify-content: space-between;
   height: 5rem;
 `
 export const FinalPrice = styled.div`
