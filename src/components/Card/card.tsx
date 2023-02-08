@@ -30,9 +30,9 @@ const Card = () => {
     {
       number: 1,
       title: 'YOUR INFO',
-      rendered: false,
+      rendered: true,
       component: Info,
-      completed: true
+      completed: false
     },
     {
       number: 2,
@@ -51,7 +51,7 @@ const Card = () => {
     {
       number: 4,
       title: 'SUMMARY',
-      rendered: true,
+      rendered: false,
       component: Summary,
       completed: false
     }
