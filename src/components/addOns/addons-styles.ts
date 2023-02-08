@@ -29,10 +29,9 @@ export const AddOnOptions = styled.div`
   @media screen and (max-width: 997px){
     border-radius: 6px;
     height: 30%;
-    width: 90%;
+    width: 80%;
   }
 `
-
 export const StyledCheckbox = styled.div`
   align-items: center;
   border: 1px solid black;

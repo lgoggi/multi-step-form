@@ -14,7 +14,6 @@ export const OptionsWrapper = styled.div`
   } 
 `
 export const LabelOption = styled.label`
-  display: grid;
   gap: 15px;
   min-width: 10rem;
   width: 31%;
