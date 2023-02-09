@@ -1,7 +1,14 @@
 import { createGlobalStyle } from 'styled-components';
 import ubuntuBold from "../assets/fonts/Ubuntu-Bold.ttf"
+import ubuntuMedium from "../assets/fonts/Ubuntu-Medium.ttf";
+import ubuntuRegular from "../assets/fonts/Ubuntu-Regular.ttf";
  
-const ubuntuUrl = ubuntuBold
+//work-around for font import
+const ubuntuBoldUrl = ubuntuBold;
+const ubuntuMediumUrl = ubuntuMedium;
+const ubuntuRegularUrl = ubuntuRegular;
+
+
 const GlobalStyle = createGlobalStyle`
 :root{
   --theme-blue: hsl(213, 96%, 18%);
@@ -16,15 +23,15 @@ const GlobalStyle = createGlobalStyle`
 }
 @font-face {
   font-family: 'ubuntu-Bold';
-  src: url(${ubuntuUrl}) format('truetype');
+  src: url(${ubuntuBold}) format('truetype');
 }
 @font-face {
   font-family: 'ubuntu-medium';
-  src: url(/assets/fonts/Ubuntu-Medium.ttf) format('truetype');;
+  src: url(${ubuntuMediumUrl}) format('truetype');;
 }
 @font-face {
   font-family: 'ubuntu-regular';
-  src: url(/assets/fonts/Ubuntu-Regular.ttf) format('truetype');;
+  src: url(${ubuntuRegularUrl}) format('truetype');;
 }
   body {
     background-color: var(--theme-bg);
