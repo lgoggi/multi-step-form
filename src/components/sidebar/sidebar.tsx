@@ -1,6 +1,6 @@
 import { stepProps } from "../../types/types"
-import {ReactComponent as Background} from "/src/assets/images/bg-sidebar-desktop.svg"
-import {ReactComponent as Mobile} from "/src/assets/images/bg-sidebar-mobile.svg"
+import {ReactComponent as Background} from "/assets/images/bg-sidebar-desktop.svg"
+import {ReactComponent as Mobile} from "/assets/images/bg-sidebar-mobile.svg"
 
 import { Step, NumberDiv, InnerWrapper, StepNumber, StepInfo, StepWrapper, Wrapper } from "./sidebar-styles"
 

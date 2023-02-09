@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ReactComponent as Checkmark } from "/src/assets/images/icon-checkmark.svg"
+import { ReactComponent as Checkmark } from "/assets/images/icon-checkmark.svg"
 import { componentProps } from "../../types/types";
 import { Wrapper, Subtext, HeadText, HeadWrapper, } from "../styles"
 import { AddonName, AddOnOptions, AddonSubtext, AddonsWrapper, HiddenCheckbox, Price, StyledCheckbox, TextWrapper } from "./addons-styles"

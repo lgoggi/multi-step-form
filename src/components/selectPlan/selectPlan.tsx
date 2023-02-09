@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { ReactComponent as Arcade } from "/src/assets/images/icon-arcade.svg"
-import { ReactComponent as Advanced } from "/src/assets/images/icon-advanced.svg"
-import { ReactComponent as Pro } from "/src/assets/images/icon-pro.svg"
+import { ReactComponent as Arcade } from "/assets/images/icon-arcade.svg"
+import { ReactComponent as Advanced } from "/assets/images/icon-advanced.svg"
+import { ReactComponent as Pro } from "/assets/images/icon-pro.svg"
 import { componentProps, planProps } from "../../types/types";
 import { Wrapper, Subtext, HeadText, HeadWrapper } from "../styles";
 import { InfoText, Label, LabelOption, Option, OptionCheckbox, OptionName, OptionPrice, OptionsWrapper, OptionText, Switch, Toggle, ToggleWrapper } from "./select-styles";

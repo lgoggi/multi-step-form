@@ -1,4 +1,4 @@
-import {ReactComponent as ThankYou } from "../../assets/images/icon-thank-you.svg"
+import {ReactComponent as ThankYou } from "/assets/images/icon-thank-you.svg"
 import { stepProps, userProps } from "../../types/types"
 import { Text, Title, Wrapper } from "./finished-styles"
 
