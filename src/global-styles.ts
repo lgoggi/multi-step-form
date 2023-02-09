@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+import ubuntuBold from "../assets/fonts/Ubuntu-Bold.ttf"
  
+const ubuntuUrl = ubuntuBold
 const GlobalStyle = createGlobalStyle`
 :root{
   --theme-blue: hsl(213, 96%, 18%);
@@ -14,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
 }
 @font-face {
   font-family: 'ubuntu-Bold';
-  src: url(/assets/fonts/Ubuntu-Bold.ttf) format('truetype');
+  src: url(${ubuntuUrl}) format('truetype');
 }
 @font-face {
   font-family: 'ubuntu-medium';
