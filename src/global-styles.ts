@@ -14,15 +14,15 @@ const GlobalStyle = createGlobalStyle`
 }
 @font-face {
   font-family: 'ubuntu-Bold';
-  src: url(/src/assets/fonts/Ubuntu-Bold.ttf) format('truetype');
+  src: url("/src/assets/fonts/Ubuntu-Bold.ttf") format('truetype');
 }
 @font-face {
   font-family: 'ubuntu-medium';
-  src: url(/src/assets/fonts/Ubuntu-Medium.ttf) format('truetype');;
+  src: url("/src/assets/fonts/Ubuntu-Medium.ttf") format('truetype');;
 }
 @font-face {
   font-family: 'ubuntu-regular';
-  src: url(/src/assets/fonts/Ubuntu-Regular.ttf) format('truetype');;
+  src: url("/src/assets/fonts/Ubuntu-Regular.ttf") format('truetype');;
 }
   body {
     background-color: var(--theme-bg);
